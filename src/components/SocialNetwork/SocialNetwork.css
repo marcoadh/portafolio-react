@@ -1,0 +1,13 @@
+.social-network {
+  display: flex;
+  gap: .5rem;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 9999px;
+  padding: 4px 16px;
+  background-color: #1f2937;
+  border: 1px solid #4b5563;
+  line-height: 24px;
+}

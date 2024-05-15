@@ -54,13 +54,13 @@
   font-weight: bold;
 }
 
-@media (max-width: 769px) {
+@media (max-width: 768px) {
   .nav-content li {
     margin: 0 .5rem;
   }
 }
 
-@media (max-width: 426px) {
+@media (max-width: 425px) {
   .nav-content {
     justify-content: center;
   }

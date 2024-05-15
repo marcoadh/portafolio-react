@@ -1,0 +1,39 @@
+main {
+  margin-top: 5rem;
+}
+
+.hero-container {
+  max-width: 676px;
+}
+
+.hero-container h1 {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+  letter-spacing: -0.9px;
+}
+
+.hero-container p {
+  line-height: 28px;
+  font-size: 1.3rem;
+  opacity: 0.9;
+}
+
+.hero-container .hero-work-position {
+  color: #fef08a;
+}
+
+.hero-container .hero-place {
+  color: #ffc1c1;
+}
+
+.hero-container nav {
+  display: flex;
+  gap: 0.7rem;
+  margin-top: 2rem;
+}
+
+@media (max-width: 425px) {
+  .hero-container h1 {
+    font-size: 2rem;
+  }
+}
