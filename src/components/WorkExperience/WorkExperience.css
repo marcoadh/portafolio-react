@@ -1,0 +1,22 @@
+.work-experience {
+  margin-top: 5rem;
+}
+
+.work-experience h2 {
+  font-size: 30px;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.work-experience-contents {
+  margin-left: 1rem;
+  padding-left: 2rem;
+  border-left: 2px solid #bababa;
+}
+
+@media (max-width: 425px) {
+  .work-experience-contents {
+    padding-right: 0;
+  }
+}

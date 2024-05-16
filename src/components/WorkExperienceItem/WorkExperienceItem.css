@@ -1,0 +1,58 @@
+.work-experience-item {
+  padding-top: .5rem;
+  padding-bottom: 2rem;
+  position: relative;
+  display: flex;
+  gap: 2rem;
+}
+
+.work-experience-item::before {
+  content: '';
+  position: absolute;
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  right: calc(100% + 25px);
+  top: 35px;
+  background-color: #32de84;
+}
+
+.work-experience-item h3 {
+  color: #32de84;
+  font-size: 1.3rem;
+  margin: 0;
+  margin-bottom: .6rem;
+}
+
+.work-experience-item section div {
+  display: flex;
+  flex-direction: column;
+  gap: .1rem;
+}
+
+.work-experience-item section div span {
+  font-size: 1rem;
+  font-weight: 600;
+}
+
+.work-experience-item section div time {
+  font-size: .9rem;
+}
+
+.work-experience-item p {
+  margin: 0;
+  line-height: 24px;
+  font-size: 0.9rem;
+}
+
+@media (max-width: 768px) {
+  .work-experience-item {
+    flex-direction: column;
+  }
+}
+
+@media (max-width: 425px) {
+  .work-experience-item {
+    padding-left: 0;
+  }
+}
