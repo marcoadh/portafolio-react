@@ -5,6 +5,7 @@ import Navbar from "./components/Navbar/Navbar";
 import Hero from "./components/Hero/Hero";
 import WorkExperience from "./components/WorkExperience/WorkExperience";
 import Projects from "./components/Projects/Projects";
+import Footer from './components/Footer/Footer';
 
 const App = () => {
 
@@ -16,6 +17,7 @@ const App = () => {
         <WorkExperience experiencias={DATA.experiencia} />
         <Projects proyectos={DATA.proyectos} />
       </div>
+      <Footer nombre={DATA.nombre} />
     </>
   )
 }
