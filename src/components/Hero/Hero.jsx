@@ -1,29 +1,30 @@
 import React from 'react';
-import SocialNetwork from '../SocialNetwork/SocialNetwork';
-import GitHub from '../Icons/GitHub/GitHub';
-import LinkedIn from '../Icons/LinkedIn/LinkedIn';
 import './Hero.css';
+import { DATA } from '../../utils/data'
+import SocialNetwork from '../SocialNetwork/SocialNetwork';
+import LinkedIn from '../Icons/LinkedIn/LinkedIn';
+import GitHub from '../Icons/GitHub/GitHub';
 
 
 const Hero = () => {
   return (
     <main>
       <section className="hero-container">
-        <h1>Hola, soy Marco De la cruz</h1>
+        <h1>Hola, soy {DATA.nombre}</h1>
 
         <p>
           3 años de experiencia como
-          <span className="hero-work-position"> Desarrollador Web.</span><br />
+          <span className="hero-work-position"> {DATA.cargo}.</span><br />
           <span className="hero-place">De Lima, Perú 🇵🇪</span>.
           Soy autodidacta, constantemente tomando cursos para aprender nuevas tecnologías.
         </p>
 
         <nav>
-          <SocialNetwork href="https://www.linkedin.com/in/marcodelacruzh/">
+          <SocialNetwork href={DATA.linkedin}>
             <LinkedIn fill="#0A66C2" width={18} height={18} /> LinkedIn
           </SocialNetwork>
 
-          <SocialNetwork href="https://github.com/marcoadh">
+          <SocialNetwork href={DATA.github}>
             <GitHub width={18} height={18} /> GitHub
           </SocialNetwork>
         </nav>

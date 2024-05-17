@@ -1,15 +1,9 @@
 export const DATA = {
   "nombre": "Marco De la cruz",
-  "cargo": "Desarrollador Full-Stack",
+  "cargo": "Desarrollador Web",
   "correo": "marcodh.dev@gmail.com",
   "linkedin": "https://www.linkedin.com/in/marcodelacruzh/",
   "github": "https://github.com/MarcoADH/",
-  "descripcion": "<div>Me llamo Marco De la cruz, vivo de Lima, Perú 🇵🇪, actualmente me dedico al <strong><em>Desarrollo Web Full-Stack</em></strong>, y uso <strong><em>Ruby on Rails</em></strong> como tecnología principal. Soy autodidacta, constantemente tomando cursos para aprender nuevas tecnologías.<br><br>En mis tiempos libres me gusta salir a caminar o ir a la playa y obtener ideas para nuevos proyectos.</div>",
-  "actividades": [
-    "Actualmente estoy trabajando en una página web - proyecto personal",
-    "Llevando un curso acerca de .NET",
-    "Llevando un curso acerca de Rails 7"
-  ],
   "experiencia": [
     {
       "cargo": "Desarrollador Web Full Stack",
