@@ -2,7 +2,7 @@ import React from 'react'
 import './WorkExperience.css'
 import Title from '../Title/Title'
 import Briefcase from '../Icons/Briefcase/Briefcase'
-import WorkExperienceItem from '../WorkExperienceItem/WorkExperienceItem'
+import WorkExperienceItem from './WorkExperienceItem/WorkExperienceItem'
 
 const WorkExperience = ({ experiencias }) => {
   return (

@@ -1,6 +1,6 @@
 import React from 'react';
 import './Hero.css';
-import SocialNetwork from '../SocialNetwork/SocialNetwork';
+import SocialNetwork from './SocialNetwork/SocialNetwork';
 import LinkedIn from '../Icons/LinkedIn/LinkedIn';
 import GitHub from '../Icons/GitHub/GitHub';
 
