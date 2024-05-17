@@ -5,6 +5,7 @@ import Navbar from "./components/Navbar/Navbar";
 import Hero from "./components/Hero/Hero";
 import WorkExperience from "./components/WorkExperience/WorkExperience";
 import Projects from "./components/Projects/Projects";
+import Skills from './components/Skills/Skills';
 import Footer from './components/Footer/Footer';
 
 const App = () => {
@@ -15,6 +16,7 @@ const App = () => {
       <div className="container">
         <Hero nombre={DATA.nombre} cargo={DATA.cargo} linkedin={DATA.linkedin} github={DATA.github} />
         <WorkExperience experiencias={DATA.experiencia} />
+        <Skills habilidades={DATA.habilidades} />
         <Projects proyectos={DATA.proyectos} />
       </div>
       <Footer nombre={DATA.nombre} />

@@ -1,0 +1,8 @@
+.skills-contents {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  padding: 1rem 0;
+  flex-wrap: wrap;
+  font-size: 0.8rem;
+}

@@ -37,15 +37,11 @@ export const DATA = {
     }
   ],
   "habilidades": [
-    { "nombre": "HTML5", "icono": "icons-html5.png" },
-    { "nombre": "CSS3", "icono": "icons-css3.png" },
-    { "nombre": "JavaScript", "icono": "icons-javascript.png" },
-    { "nombre": "Bootstrap", "icono": "icons-boostrap.png" },
-    { "nombre": "Git", "icono": "icons-git.png" },
-    { "nombre": "MySql", "icono": "icons-mysql.png" },
-    { "nombre": "Stimulus JS", "icono": "icons-stimulus-js.png" },
-    { "nombre": "JQuery", "icono": "icons-jquery.png" },
-    { "nombre": "Ruby", "icono": "icons-ruby.png" },
-    { "nombre": "Rails", "icono": "icons-rails.png" }
+    { "nombre": "Bootstrap", "iconoURL": "./assets/skills/bootstrap.svg" },
+    { "nombre": "JavaScript", "iconoURL": "./assets/skills/javascript.svg" },
+    { "nombre": "React", "iconoURL": "./assets/skills/react.svg" },
+    { "nombre": "Ruby", "iconoURL": "./assets/skills/ruby.svg" },
+    { "nombre": "Rails", "iconoURL": "./assets/skills/ruby-on-rails.png" },
+    { "nombre": "MySql", "iconoURL": "./assets/skills/mysql.svg" }
   ]
 }
