@@ -1,0 +1,16 @@
+.projects {
+  margin: 2rem 0;
+}
+
+.projects .projects-contents {
+  display: flex;  
+  flex-direction: column;
+  gap: 2rem;
+  padding: 1rem 3rem;
+}
+
+@media (max-width: 768px) {
+  .projects .projects-contents {
+    padding: 1rem;
+  }
+}

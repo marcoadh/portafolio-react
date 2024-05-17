@@ -18,40 +18,13 @@ export const DATA = {
   ],
   "proyectos": [
     {
-      "nombre": "ARQ | Arquitectura",
-      "descripcion": "Proyecto de Estudios - Página Arquitectura.",
-      "pagina": "https://project-architecture.netlify.app/",
-      "repositorio": "https://github.com/marcoadh/arquitectura",
-      "detalles": null,
-      "imagen": "proyecto_pagina_arq.png",
-      "tecnologias": ["HTML", "CSS", "JavaScript", "Bootstrap", "JQuery"]
-    },
-    {
       "nombre": "Desafíos Frontend",
       "descripcion": "Desafíos resueltos de Frontend.",
       "pagina": "https://marcoadh.github.io/challenges/",
       "repositorio": "https://github.com/marcoadh/challenges",
       "detalles": null,
-      "imagen": "proyecto_challenges_frontendmentor.png",
+      "imagen": "./assets/projects/proyecto_challenges_frontendmentor.webp",
       "tecnologias": ["HTML", "CSS", "JavaScript"]
-    },
-    {
-      "nombre": "Alpha Blog",
-      "descripcion": "Blog básico donde puedes leer o crear artículos.",
-      "pagina": "",
-      "repositorio": "https://github.com/marcoadh/alpha-blog",
-      "detalles": null,
-      "imagen": "proyecto_alpha_blog.png",
-      "tecnologias": ["HTML", "CSS", "Boostrap", "JavaScript", "Ruby", "Rails 5", "SQLite"]
-    },
-    {
-      "nombre": "University Tech",
-      "descripcion": "Aplicación web donde se puede registrar cursos de tecnología.",
-      "pagina": "",
-      "repositorio": "https://github.com/marcoadh/university-technology-rails",
-      "detalles": null,
-      "imagen": "proyecto_web_universidad.png",
-      "tecnologias": ["HTML", "CSS", "Materialize", "JavaScript", "Ruby", "Rails 5", "SQLite"]
     },
     {
       "nombre": "Control de Horario",
@@ -59,7 +32,7 @@ export const DATA = {
       "pagina": "",
       "repositorio": "https://github.com/marcoadh/control-horarios",
       "detalles": null,
-      "imagen": "proyecto_control_horarios.png",
+      "imagen": "./assets/projects/proyecto_control_horarios.webp",
       "tecnologias": ["HTML", "CSS", "Bootstrap", "JavaScript", "Ruby", "Rails 5", "SQLite"]
     }
   ],

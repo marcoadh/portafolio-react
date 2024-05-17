@@ -1,0 +1,12 @@
+.link-item {
+  text-align: center;
+  padding: 8px 12px;
+  display: flex;
+  align-items: center;
+  gap: 0.7rem;
+  border-radius: 12px;
+  background-color: #000;
+  border: 1px solid rgb(20, 21, 24);
+  text-decoration: none;
+  color: #fff;
+}
