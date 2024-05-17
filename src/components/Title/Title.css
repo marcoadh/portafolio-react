@@ -1,0 +1,6 @@
+h2.title {
+  display: flex;
+  align-items: center;
+  font-size: 30px;
+  gap: 1rem;
+}

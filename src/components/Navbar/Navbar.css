@@ -3,6 +3,7 @@
   position: sticky;
   top: 0;
   backdrop-filter: blur(50px);
+  z-index: 1000;
 }
 
 .nav-content {

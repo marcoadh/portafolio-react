@@ -1,24 +1,23 @@
 import React from 'react'
 import './WorkExperience.css'
 import { DATA } from '../../utils/data'
-import WorkExperienceItem from '../WorkExperienceItem/WorkExperienceItem'
+import Title from '../Title/Title'
 import Briefcase from '../Icons/Briefcase/Briefcase'
+import WorkExperienceItem from '../WorkExperienceItem/WorkExperienceItem'
 
 const WorkExperience = () => {
   return (
-    <section>
-      <div className="work-experience">
-        <h2>
-          <Briefcase width={30} height={30} /> Experiencia Laboral
-        </h2>
+    <div className="work-experience">
+      <Title>
+        <Briefcase width={30} height={30} /> Experiencia Laboral
+      </Title>
 
-        <div className="work-experience-contents">
-          {DATA.experiencia.map(exp => (
-            <WorkExperienceItem key={exp.cargo} experiencia={exp} />
-          ))}
-        </div>
+      <div className="work-experience-contents">
+        {DATA.experiencia.map(exp => (
+          <WorkExperienceItem key={exp.cargo} experiencia={exp} />
+        ))}
       </div>
-    </section>
+    </div>
   )
 }
 
