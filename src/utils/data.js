@@ -18,15 +18,6 @@ export const DATA = {
   ],
   "proyectos": [
     {
-      "nombre": "Desafíos Frontend",
-      "descripcion": "Desafíos resueltos de Frontend.",
-      "pagina": "https://marcoadh.github.io/challenges/",
-      "repositorio": "https://github.com/marcoadh/challenges",
-      "detalles": null,
-      "imagen": "./assets/projects/proyecto_challenges_frontendmentor.webp",
-      "tecnologias": ["HTML", "CSS", "JavaScript"]
-    },
-    {
       "nombre": "Control de Horario",
       "descripcion": "Aplicación web que permite registrar entrada y salida de empleado.",
       "pagina": "",
@@ -34,6 +25,15 @@ export const DATA = {
       "detalles": null,
       "imagen": "./assets/projects/proyecto_control_horarios.webp",
       "tecnologias": ["HTML", "CSS", "Bootstrap", "JavaScript", "Ruby", "Rails 5", "SQLite"]
+    },
+    {
+      "nombre": "Desafíos Frontend",
+      "descripcion": "Desafíos resueltos de Frontend.",
+      "pagina": "https://marcoadh.github.io/challenges/",
+      "repositorio": "https://github.com/marcoadh/challenges",
+      "detalles": null,
+      "imagen": "./assets/projects/proyecto_challenges_frontendmentor.webp",
+      "tecnologias": ["HTML", "CSS", "JavaScript"]
     }
   ],
   "habilidades": [
