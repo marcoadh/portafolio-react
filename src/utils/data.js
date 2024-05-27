@@ -4,6 +4,7 @@ export const DATA = {
   "correo": "marcodh.dev@gmail.com",
   "linkedin": "https://www.linkedin.com/in/marcodelacruzh/",
   "github": "https://github.com/MarcoADH/",
+  "fechaInicioProgramando": "2021-08-15",
   "experiencia": [
     {
       "cargo": "Desarrollador Web Full Stack",
