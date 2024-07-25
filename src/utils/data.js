@@ -11,9 +11,19 @@ export const DATA = {
       "empresa": "GEOSATELITAL",
       "fecha": "Agosto 2021 - Actualmente",
       "detalles": [
-        "Desarrollo y mantenimiento de aplicaciones web.",
-        "Manejo de Base de datos.",
-        "Análisis de sistema."
+        "Participé en +20 aplicaciones web.",
+        "Agregué funcionalidades para +10 REST APIs.",
+        "He usado tecnologías como Bootstrap, Javascript, jQuery, StimulusJS, Ruby on Rails, MySQL, Redis (Estrategia de caché), Beanstalkd y NSQ (Gestión de sistemas de colas).",
+        "Brindé inducción acerca de las tecnologías más utilizadas en la empresa."
+      ]
+    },
+    {
+      "cargo": "Desarrollador Web Front-End",
+      "empresa": "Dsoftconsultores",
+      "fecha": "Noviembre 2023 - Febrero 2024",
+      "detalles": [
+        "Experiencia como Desarrollador Front End.",
+        "Aprendí y utilicé SAPUI5 para desarrollar aplicaciones eficientes y modernas."
       ]
     }
   ],
