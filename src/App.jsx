@@ -14,7 +14,7 @@ const App = () => {
     <>
       <Navbar correo={DATA.correo} />
       <div className="container">
-        <Hero nombre={DATA.nombre} cargo={DATA.cargo} linkedin={DATA.linkedin} github={DATA.github} fechaInicio={DATA.fechaInicioProgramando} />
+        <Hero nombre={DATA.nombre} cargo={DATA.cargo} linkedin={DATA.linkedin} github={DATA.github} cv={DATA.cv} fechaInicio={DATA.fechaInicioProgramando} />
         <WorkExperience experiencias={DATA.experiencia} />
         <Skills habilidades={DATA.habilidades} />
         <Projects proyectos={DATA.proyectos} />

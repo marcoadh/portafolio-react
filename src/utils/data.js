@@ -4,6 +4,7 @@ export const DATA = {
   "correo": "marcodh.dev@gmail.com",
   "linkedin": "https://www.linkedin.com/in/marcodelacruzh/",
   "github": "https://github.com/MarcoADH/",
+  "cv": "./assets/docs/marcodelacruz_cv.pdf",
   "fechaInicioProgramando": "2021-08-15",
   "experiencia": [
     {

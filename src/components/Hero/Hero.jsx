@@ -6,7 +6,7 @@ import GitHub from '../Icons/GitHub/GitHub';
 import calcularDiferenciaFechas from '../../utils/calcularDiferenciaFechas';
 
 
-const Hero = ({ nombre, cargo, linkedin, github, fechaInicio }) => {
+const Hero = ({ nombre, cargo, linkedin, github, cv, fechaInicio }) => {
 
   const { anios, meses } = calcularDiferenciaFechas(fechaInicio)
   let tiempoExperiencia;
@@ -36,6 +36,10 @@ const Hero = ({ nombre, cargo, linkedin, github, fechaInicio }) => {
 
           <SocialNetwork href={github}>
             <GitHub width={18} height={18} /> GitHub
+          </SocialNetwork>
+
+          <SocialNetwork href={cv} download>
+            CV
           </SocialNetwork>
         </nav>
       </section>
