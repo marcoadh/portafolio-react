@@ -13,7 +13,12 @@ export const DATA = {
       "detalles": [
         "Participé en +20 aplicaciones web.",
         "Agregué funcionalidades para +10 REST APIs.",
-        "He usado tecnologías como Bootstrap, Javascript, jQuery, StimulusJS, Ruby on Rails, MySQL, Redis (Estrategia de caché), Beanstalkd y NSQ (Gestión de sistemas de colas).",
+        "He usado tecnologías como Bootstrap, Javascript, jQuery, StimulusJS, Ruby on Rails, MySQL, Redis (Estrategia de caché), Beanstalkd y NSQ (Gestión de sistemas de colas), Git (Control de versiones).",
+        "He usado distintas librerías Front-end: Select2, Leaflet, ControlGeocoder, Heatmap, SweetAlert, etc.",
+        "Desarrollé un sistema para unificar las retransmisiones de los vehículos de cada entidad y así teniendo mayor control de los datos. Desarrollado con RoR, StimulusJS, Mysql, WebSockets.",
+        "Desarrollé un sistema de monitoreo en tiempo real de los vehículos asociados, generando eventos y alertas si estos incumplían ciertas reglas impuestas por el cliente. Desarrollado con RoR, StimulusJS, JQuery, Redis, Beanstalkd, NSQ, WebSocket, ActionMailer (Para envío de correos).",
+        "Desarrollé una librería que permite calcular si un vehículo ha ingresado, si se mantiene dentro y si ha salido de una área en específica usando Ruby, RGeo y Redis.",
+        "Brindé soporte a un sistema de generación de tickets y propuse mejoras como implementación de notificaciones según usuario, visibilidad de tickets, control de usuarios para usuario administrador, etc.",
         "Brindé inducción acerca de las tecnologías más utilizadas en la empresa."
       ]
     },
@@ -23,7 +28,8 @@ export const DATA = {
       "fecha": "Noviembre 2023 - Febrero 2024",
       "detalles": [
         "Experiencia como Desarrollador Front End.",
-        "Aprendí y utilicé SAPUI5 para desarrollar aplicaciones eficientes y modernas."
+        "Aprendí y utilicé SAPUI5 para desarrollar aplicaciones eficientes y modernas.",
+        "Coordiné diariamente con distintas áreas para agregar cambios que solicitaban."
       ]
     }
   ],
